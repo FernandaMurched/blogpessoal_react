@@ -19,11 +19,10 @@ function Home() {
           className="
                     flex
                     flex-col
-                    justify-center
-                    items-center
                     gap-4
+                    items-center 
+                    justify-center                                    
                     py-4
-                    px-4
                 "
         >
           <h2
@@ -36,6 +35,7 @@ function Home() {
           </h2>
 
           <p className="text-xl">Expresse aqui seus pensamentos e opiniões</p>
+
           <div
             className="
                     flex
@@ -46,6 +46,7 @@ function Home() {
             <div
               className="
                         rounded
+                        text-white
                         border-white
                         border-solid
                         border-2
