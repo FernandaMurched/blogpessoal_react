@@ -1,5 +1,5 @@
-import ListaPostagens from "../../../components/temas/postagens/listapostagens/ListaPostagens"
-import ModalPostagem from "../../../components/temas/postagens/modalpostagem/ModalPostagem"
+import ListaPostagens from "../../../components/postagens/listapostagens/ListaPostagens"
+import ModalPostagem from "../../../components/postagens/modalpostagem/ModalPostagem"
 
 function Home() {
     return (

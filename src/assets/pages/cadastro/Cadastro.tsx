@@ -4,6 +4,8 @@ import type { Usuario } from "../../../models/Usuario";
 import { useNavigate } from "react-router-dom";
 import { cadastrarUsuario } from "../../../services/Service";
 import { RotatingLines } from "react-loader-spinner";
+import "react-toastify/dist/ReactToastify.css";
+
 
 function Cadastro() {
   const navigate = useNavigate();
@@ -50,10 +52,10 @@ function Cadastro() {
       try{
 
         await cadastrarUsuario('/usuarios/cadastrar', usuario, setUsuario)
-        alert("Usuario cadastrado com sucesso!")
+        alert("Usuário cadastrado com sucesso!");
 
       }catch(error){
-        alert("Erro ao cadastrar o usuário")
+        alert("Erro ao cadastrar usuário");
         console.error(error)
       }
     
